@@ -1,0 +1,31 @@
+body {
+    background-color: #0f0f0f;
+    padding: 50px;
+}
+form {
+    padding: 35px;
+    border-radius: 10%;
+    border: 2px solid red;
+}
+form input {
+    border-color: red!important;
+    background-color: #1b1e21!important;
+    color: white!important;
+}
+.form-group {
+    width: 80%;
+}
+.form-group label {
+    color: white;
+}
+form select {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10%;
+    color: white;
+}
+form button {
+background-color: transparent!important;
+    border: 2px solid red!important;
+    transition: .3s;
+}
