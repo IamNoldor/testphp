@@ -37,7 +37,7 @@ s_button.addEventListener('click', function () {
     let contact_name = document.getElementById('InputContactName').value;
     hideHelp();
     $.ajax({
-        url: '/web/index.php?r=post/index',
+        url: '/web/index.php?r=site/index',
         type: 'POST',
         data: {
             form_type: select.value,
